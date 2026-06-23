@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "express-cvpr-internvl"
+version = "0.1.0"
+description = "InternVL reconstruction-guided answering implementation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["express_cvpr*", "internvl*"]
