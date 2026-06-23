@@ -1,4 +1,4 @@
-# eXpress CVPR InternVL
+# Envision, Attend, Then Respond: Counterfactual Hallucination Mitigation in Large Vision-Language Models
 
 This repository is the cleaned implementation for the CVPR 2026 project.
 
